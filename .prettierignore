@@ -1,26 +1,19 @@
-# Node/NPM stuff
+# Node
 node_modules
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
 
-# Git
-.git
-.gitignore
-
-# VSCode / JetBrains / OS
+# IDE / OS
 .vscode
 .idea
 .DS_Store
 
-# Логи и отладка
+# Logs
 npm-debug.log*
 *.log
 
-# Выходные файлы
+# Build output
 dist
 build
 coverage
 
-# HTML
-*.html
+# Minified files
+*.min.js

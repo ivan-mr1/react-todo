@@ -1,9 +1,13 @@
-/** * @see https://prettier.io/docs/configuration * @type {import('prettier').Config} */
+/**
+ * @see https://prettier.io/docs/configuration
+ * @type {import('prettier').Config}
+ */
 export default {
-  // semi: false, //  Всегда не ставить точку с запятой
-  singleQuote: true, //  Использовать одинарные кавычки вместо двойных
+  semi: true,
+  singleQuote: true,
   tabWidth: 2,
   endOfLine: 'lf',
-  bracketSpacing: true, //  Пробелы между скобками объектов
+  bracketSpacing: true,
   printWidth: 80,
+  trailingComma: 'all',
 };
