@@ -10,7 +10,7 @@ const AddTaskForm = () => {
         id="new-task"
         type="text"
       />
-      <Button />
+      <Button type="submit">Add</Button>
     </form>
   );
 };

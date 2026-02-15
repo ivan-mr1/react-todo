@@ -44,11 +44,6 @@
   &:hover {
     color: var(--color-gray-4);
   }
-
-  &:not(.is-visible) {
-    visibility: hidden;
-    opacity: 0;
-  }
 }
 
 .todo__list,
