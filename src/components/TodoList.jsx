@@ -8,10 +8,10 @@ const TodoList = () => {
   }
   return (
     <ul className="todo__list">
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
+      <TodoItem title={'task name 1'} isDone={false} />
+      <TodoItem title={'task name 2'} isDone={false} />
+      <TodoItem title={'task name 3'} isDone={false} />
+      <TodoItem title={'task name 4'} isDone={false} />
       <li className="todo__item todo-item">
         <input className="todo-item__checkbox" id="task-2" type="checkbox" />
         <label className="todo-item__label" htmlFor="task-2">
