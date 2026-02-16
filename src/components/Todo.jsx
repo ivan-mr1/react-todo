@@ -23,11 +23,19 @@ const Todo = () => {
   };
 
   const deleteTask = (taskId) => {
-    console.log(`delete task ${taskId}`);
+    setTasks(tasks.filter((task) => task.id !== taskId));
   };
 
   const toggleTaskComplete = (taskId, isDone) => {
-    console.log(`Task ${taskId} status: ${isDone ? 'done' : 'not done'}`);
+    setTasks(
+      tasks.map((task) => {
+        if (task.id === taskId) {
+          return { ...task, isDone };
+        }
+
+        return task;
+      }),
+    );
   };
 
   const filterTasks = (query) => {
