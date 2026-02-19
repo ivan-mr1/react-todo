@@ -7,8 +7,7 @@ const useTasks = () => {
   const [tasks, setTasks] = useState(
     savedTasks ?? [
       { id: 'task-1', title: 'task name 1', isDone: false },
-      { id: 'task-2', title: 'task name 2', isDone: true },
-      { id: 'task-3', title: 'task name 3', isDone: true },
+      { id: 'task-2', title: 'task name2', isDone: true },
     ],
   );
 
@@ -47,20 +46,18 @@ const useTasks = () => {
     [tasks],
   );
 
-  const addTask = useCallback(() => {
-    if (newTaskTitle.trim().length > 0) {
-      const newTask = {
-        id: crypto?.randomUUID() ?? Date.now().toString(),
-        title: newTaskTitle,
-        isDone: false,
-      };
+  const addTask = useCallback((title) => {
+    const newTask = {
+      id: crypto?.randomUUID() ?? Date.now().toString(),
+      title,
+      isDone: false,
+    };
 
-      setTasks((prevTasks) => [...prevTasks, newTask]);
-      setNewTaskTitle('');
-      setSearchQuery('');
-      newTaskInputRef.current.focus();
-    }
-  }, [newTaskTitle]);
+    setTasks((prevTasks) => [...prevTasks, newTask]);
+    setNewTaskTitle('');
+    setSearchQuery('');
+    newTaskInputRef.current.focus();
+  }, []);
 
   useEffect(() => {
     saveTasks(tasks);
