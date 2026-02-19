@@ -36,6 +36,7 @@ export default defineConfig([
       eqeqeq: 'error',
       curly: 'error',
       'no-else-return': 'warn',
+      'react-refresh/only-export-components': 'off',
     },
   },
 ]);
