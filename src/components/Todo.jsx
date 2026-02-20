@@ -1,4 +1,5 @@
 import { useContext } from 'react';
+import DateTime from './DateTime';
 import AddTaskForm from './AddTaskForm';
 import SearchTaskForm from './SearchTaskForm';
 import TodoInfo from './TodoInfo';
@@ -12,6 +13,7 @@ const Todo = () => {
   return (
     <div className="todo">
       <h1 className="todo__title">To Do List</h1>
+      <DateTime />
       <AddTaskForm />
       <SearchTaskForm />
       <TodoInfo />
