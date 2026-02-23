@@ -1,9 +1,1 @@
-{
-  tasks: [
-    { id: '1225', title: 'dbdfbdn', isDone: false },
-    { id: '865d', title: 'dfndfnd', isDone: false },
-    { id: 'e1f1', title: 'dndfndgdns', isDone: false },
-    { id: '3468', title: 'ssbsbf', isDone: false },
-    { id: 'b1d1', title: 'jjbbubub', isDone: false },
-  ],
-}
+{tasks:[{id:'1225',title:'dbdfbdn',isDone:true},{id:'865d',title:'dfndfnd',isDone:true},{id:'e1f1',title:'dndfndgdns',isDone:true},{id:'3468',title:'ssbsbf',isDone:false},{id:'b1d1',title:'jjbbubub',isDone:false},{id:'9426',title:'sd',isDone:false},{id:'7f75',title:'s',isDone:false},{id:'eec9',title:'g',isDone:false},{id:'1610',title:'d',isDone:false},{id:'f30a',title:'a',isDone:false},{id:'3322',title:'ccccccccccccc',isDone:false},{id:'5353',title:'cbcn',isDone:false}]}
