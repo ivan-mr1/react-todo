@@ -13,6 +13,7 @@ export default defineConfig([
     '.git',
     '.vscode',
     '.idea',
+    'vite.config.js',
   ]),
 
   {
