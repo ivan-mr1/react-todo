@@ -22,7 +22,7 @@ const TaskPage = (props) => {
       .finally(() => {
         setIsLoading(false);
       });
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (isLoading) {
     return <div>Loading...</div>;
@@ -35,7 +35,7 @@ const TaskPage = (props) => {
   return (
     <div>
       <h1>{task.title}</h1>
-      <p>{task.isDone ? 'Задача выполнена' : 'Задача не выполнена'}</p>
+      <p>{task.isDone ? 'Task done' : 'task not done'}</p>
     </div>
   );
 };
