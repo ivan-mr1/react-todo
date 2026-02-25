@@ -1,4 +1,5 @@
 import { useContext } from 'react';
+import DateTime from '@/shared/ui/DateTime';
 import AddTaskForm from '@/features/add-task';
 import SearchTaskForm from '@/features/search-task';
 import TodoInfo from '@/features/stats';
@@ -13,6 +14,7 @@ const Todo = () => {
   return (
     <div className={styles.todo}>
       <h1 className={styles.title}>To Do List</h1>
+      <DateTime />
       <AddTaskForm styles={styles} />
       <SearchTaskForm styles={styles} />
       <TodoInfo styles={styles} />

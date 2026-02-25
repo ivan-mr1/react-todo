@@ -1,12 +1,12 @@
-# To Do List React + Vite
+# To Do List React
 
 ## Description
 
-landing To Do App
+To Do App
 
-- Deploy: [link]()
+- Deploy: [link](https://ivan-mr1.github.io/react-todo/)
 
-- Technologies: SCSS, React, Vite, Eslint, Stylelint, Prettier
+- Technologies: SCSS, React, Vite, Eslint, Stylelint, Prettier, Feature-Sliced Design
 
 - Screenshot:
   <img alt="image" src="https://github.com/user-attachments/assets/33ca16a2-574e-44ff-988b-a0f33db992f1" />
